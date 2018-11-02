@@ -15,7 +15,7 @@ foreach ($fileList as $key => $value) {
 <html lang="ru">
 <head>
 	<body>
-		<form method="post" action="actions/actionDelete.php" enctype="multipart/form-data">
+		<form method="post" action="actionDelete.php" enctype="multipart/form-data">
             <p><label><input type=radio name="<?=$key?>" value="<?=$value?>"><?= $test[0]['question'] ?></label></p>
 
 	<?php
