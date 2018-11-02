@@ -104,10 +104,10 @@ for ($i = 0; $i < count($test[0]['items']); $i++) {
 }
 ?>
    </fieldset>
-    <input class="add" type="submit" name="add" value="Отправить">
+    <input class="add" type="submit" name="" value="Отправить">
   </form> 
  <?php
-if (empty($_POST['add'])) {
+if (empty($_POST)) {
 ?>
      <p>Введите данные в форму</p>
       <p><a href="list.php">Список тестов</a></p>
